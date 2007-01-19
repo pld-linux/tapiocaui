@@ -62,5 +62,5 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_desktopdir}/tapiocaui.desktop
 %{_pixmapsdir}/*.png
-%{_pixmapsdir}/tapiocaui/*.png
-%{_datadir}/tapiocaui/*.glade
+%{_pixmapsdir}/tapiocaui
+%{_datadir}/tapiocaui
