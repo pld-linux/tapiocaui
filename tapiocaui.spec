@@ -1,11 +1,12 @@
 Summary:	A framework for Voice over IP (VoIP) and Instant Messaging (IM)
 Name:		tapiocaui
-Version:	0.3.9.1
+Version:	0.3.9
 Release:	0.1
 License:	GPL
 Group:		Networking/Instant messaging
 Source0:	http://dl.sourceforge.net/tapioca-voip/%{name}-%{version}.tar.gz
-# Source0-md5:	2b0fc6997e793784763fe23c81a4986f
+# Source0-md5:	aab56e42ca10b312ba0ca2e416b72374
+Patch0:		%{name}-farsight.patch
 URL:		http://tapioca-voip.sourceforge.net/wiki/index.php/Tapioca
 BuildRequires:	dbus-devel 
 BuildRequires:	gtk+2-devel 
@@ -41,6 +42,7 @@ application.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure
@@ -60,4 +62,5 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_desktopdir}/tapiocaui.desktop
 %{_pixmapsdir}/*.png
+%{_pixmapsdir}/tapiocaui/*.png
 %{_datadir}/tapiocaui/*.glade
