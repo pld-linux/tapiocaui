@@ -10,13 +10,15 @@ Source0:	http://dl.sourceforge.net/tapioca-voip/%{name}-%{version}.tar.gz
 # Source0-md5:	aab56e42ca10b312ba0ca2e416b72374
 Patch0:		%{name}-farsight.patch
 URL:		http://tapioca-voip.sourceforge.net/wiki/index.php/Tapioca
-BuildRequires:	dbus-devel 
-BuildRequires:	gtk+2-devel 
-BuildRequires:	glib2-devel 
-BuildRequires:	hal-devel 
-BuildRequires:	libfarsight-devel 
+BuildRequires:	GConf2-devel >= 2.0
+BuildRequires:	dbus-devel
+BuildRequires:	gtk+2-devel >= 1:2.0
+BuildRequires:	glib2-devel
+BuildRequires:	libfarsight-devel >= 0.1
+BuildRequires:	libglade2-devel >= 2.0
 BuildRequires:	libxml2-devel
-BuildRequires:	tapioca-libs-devel
+BuildRequires:	pkgconfig
+BuildRequires:	tapioca-libs-devel >= 0.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
