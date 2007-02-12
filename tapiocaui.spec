@@ -1,6 +1,6 @@
 # TODO: descs for tapiocaui, not copy of tapioca descs
 Summary:	A framework for Voice over IP (VoIP) and Instant Messaging (IM)
-Summary(pl.UTF-8):   Szkielet do VoIP (Voice over IP) i IM (Instant Messaging)
+Summary(pl.UTF-8):	Szkielet do VoIP (Voice over IP) i IM (Instant Messaging)
 Name:		tapiocaui
 Version:	0.3.9
 Release:	0.1
