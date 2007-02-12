@@ -1,6 +1,6 @@
 # TODO: descs for tapiocaui, not copy of tapioca descs
 Summary:	A framework for Voice over IP (VoIP) and Instant Messaging (IM)
-Summary(pl):	Szkielet do VoIP (Voice over IP) i IM (Instant Messaging)
+Summary(pl.UTF-8):   Szkielet do VoIP (Voice over IP) i IM (Instant Messaging)
 Name:		tapiocaui
 Version:	0.3.9
 Release:	0.1
@@ -39,24 +39,24 @@ Tapioca's main goals are:
    application.
 - Reduce the overhead of control layers and library dependencies.
 
-%description -l pl
+%description -l pl.UTF-8
 Tapioca to szkielet do VoIP (Voice over IP) i IM (Instant Messaging,
-czyli komunikatorów). G³ównym jego celem jest zapewnienie ³atwego
-sposobu tworzenia i u¿ywania us³ug VoIP i IM w dowolnym rodzaju
-aplikacji. Zosta³ zaprojektowany jako wieloplatformowy, lekki,
-bezpieczny dla w±tków, a tak¿e z my¶l± o urz±dzeniach i aplikacjach
-przeno¶nych.
+czyli komunikatorÃ³w). GÅ‚Ã³wnym jego celem jest zapewnienie Å‚atwego
+sposobu tworzenia i uÅ¼ywania usÅ‚ug VoIP i IM w dowolnym rodzaju
+aplikacji. ZostaÅ‚ zaprojektowany jako wieloplatformowy, lekki,
+bezpieczny dla wÄ…tkÃ³w, a takÅ¼e z myÅ›lÄ… o urzÄ…dzeniach i aplikacjach
+przenoÅ›nych.
 
-G³ówne cele projektu Tapioca to:
- - stworzenie rozwi±zania integruj±cego wszystkie komponenty u¿ywane
-   przez aplikacje VoIP i IM w pojedynczym, pewnym i ³atwym w u¿yciu
-   szkielecie, nadaj±cym siê do wykorzystania na ró¿nych platformach
- - oszczêdno¶æ zasobów poprzez udostêpnienie centralnych us³ug dla
-   wielu aplikacji; na przyk³ad: sterowanie wszystkimi przychodz±cymi
-   i wychodz±cymi ¿±daniami SIP jest obs³ugiwane przez us³ugê SIP, co
+GÅ‚Ã³wne cele projektu Tapioca to:
+ - stworzenie rozwiÄ…zania integrujÄ…cego wszystkie komponenty uÅ¼ywane
+   przez aplikacje VoIP i IM w pojedynczym, pewnym i Å‚atwym w uÅ¼yciu
+   szkielecie, nadajÄ…cym siÄ™ do wykorzystania na rÃ³Å¼nych platformach
+ - oszczÄ™dnoÅ›Ä‡ zasobÃ³w poprzez udostÄ™pnienie centralnych usÅ‚ug dla
+   wielu aplikacji; na przykÅ‚ad: sterowanie wszystkimi przychodzÄ…cymi
+   i wychodzÄ…cymi Å¼Ä…daniami SIP jest obsÅ‚ugiwane przez usÅ‚ugÄ™ SIP, co
    zapobiega tworzeniu jednego stosu SIP i przydzielania portu
-   sieciowego dla ka¿dej aplikacji opartej na SIP
- - ograniczenie narzutu warstw steruj±cych i zale¿no¶ci bibliotek
+   sieciowego dla kaÅ¼dej aplikacji opartej na SIP
+ - ograniczenie narzutu warstw sterujÄ…cych i zaleÅ¼noÅ›ci bibliotek
 
 %prep
 %setup -q
